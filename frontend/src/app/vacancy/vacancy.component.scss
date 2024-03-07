@@ -1,0 +1,13 @@
+.vacancy-page {
+  padding: 15px;
+}
+
+.vacancy-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+  &__submit {
+    align-self: flex-end;
+  }
+}

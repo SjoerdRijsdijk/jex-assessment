@@ -1,0 +1,10 @@
+<mat-toolbar>
+  <span>Jex Assignment</span>
+</mat-toolbar>
+<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  <a mat-tab-link [routerLink]="['/companies']"> View companies </a>
+  <a mat-tab-link [routerLink]="['/vacancy']"> Create vacancy </a>
+</nav>
+<mat-tab-nav-panel #tabPanel>
+  <router-outlet />
+</mat-tab-nav-panel>
